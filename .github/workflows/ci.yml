@@ -38,6 +38,7 @@ jobs:
 
       - name: Cache Rust artifacts
         uses: actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7  # v5
+        continue-on-error: true
         with:
           path: |
             ~/.cargo/bin/
@@ -108,6 +109,7 @@ jobs:
 
       - name: Cache Rust artifacts
         uses: actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7  # v5
+        continue-on-error: true
         with:
           path: |
             ~/.cargo/bin/
@@ -146,6 +148,7 @@ jobs:
 
       - name: Cache Rust artifacts
         uses: actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7  # v5
+        continue-on-error: true
         with:
           path: |
             ~/.cargo/bin/
